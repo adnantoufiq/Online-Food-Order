@@ -1,0 +1,148 @@
+/*
+author: Ariful Islam Toufiq
+*/
+
+*{
+
+
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+
+    
+    padding: 1%;
+    width:  80%;
+    margin: 0 auto;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clear-fix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+
+}
+ table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+ table tr td{
+     padding: 1%;
+ }
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn-secondary:hover{
+    background-color: #1e90ff;
+}
+.btn-normal{
+    background-color: #70a1ff;
+    padding: 1%;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn-normal:hover{
+    background-color: #3742fa;
+}
+
+.success{
+    color:green;
+}
+.error{
+    color:red;
+}
+.add{
+    color: green;
+}
+.fail{
+    color:red;
+}
+/* css for menu */
+
+
+
+
+.menu{
+
+    border-bottom:1px solid green;
+}
+.menu ul{
+    list-style-type: none;
+    
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+
+}
+
+/* css for main content */
+
+.Main-Content{
+    
+    background-color:#f1f2f6;
+    padding: 2% 0;
+}
+
+
+.col-4{
+    background-color: white;
+    padding: 2%;
+    margin: 1%;
+    width: 18%;
+    float: left;
+}
+
+/*  css for fotter*/
+
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+
+/*  css for login  */
+
+.login{
+    border: 1px solid gray;
+    width: 20%;
+    margin:  10% auto;
+    padding: 2%;
+}
+
+
